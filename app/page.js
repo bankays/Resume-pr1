@@ -1,95 +1,55 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from "next/image";
+import styles from "./page.module.css";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+      <div className="Home">
+        <div className="container">
+          <div className="obj">
+            <div className="left">
+              <p className="p1">
+                My Name is Azizbek I'm <strong> Frontend Developer</strong>
+              </p>
+              <p className="p2">
+                I'm interested in web development. I have good knowledge of
+                front-end technologies.
+              </p>
+            </div>
+            <div className="right">
+              <Image
+                className="img1"
+                src={"/img1.png"}
+                width={400}
+                height={400}
+                alt="my img"
+              />
+            </div>
+          </div>
+          <div className="about">
+            <h1 className="ab1">About me</h1>
+            <p className="p3">
+              My name is Aziz. I live in Uzbekistan. I am interested in
+              programmer. I study in <strong> Najot talim.</strong> I chose
+              <strong> Frontend </strong> because I am interested with design. I
+              am very <strong>patient</strong> and{" "}
+              <strong> hard working</strong> and of course I know 3 languages
+              one of them is English my level is B1.
+            </p>{" "}
+            <div className="work">
+              <p className="p11">html</p>
+              <p className="p11">css</p>
+              <p className="p11">javascript</p>
+              <p className="p11">React</p>
+              <p className="p11">nextjs</p>
+              <p className="p11">github</p>
+              <p className="p11">vercel</p>
+              <p className="p11">netlify</p>
+              <p className="p11">bootstrap</p>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
     </main>
-  )
+  );
 }
