@@ -9,7 +9,10 @@ const Project = () => {
         <div className="container">
           <h1 className="pr-p1">My projects</h1>
           <div className="all1">
-            <Link href="https://taupe-frangollo-661719.netlify.app">
+            <Link
+              href="https://taupe-frangollo-661719.netlify.app"
+              target="_blank"
+            >
               {" "}
               <Image
                 src={"/project1.png"}
@@ -23,7 +26,7 @@ const Project = () => {
           </div>
           <div className="all1">
             <p className="pr-p2"> Project</p>
-            <Link href="https://homepage8lesonaa.netlify.app">
+            <Link href="https://homepage8lesonaa.netlify.app" target="_blank">
               {" "}
               <Image
                 src={"/project2.png"}
@@ -34,7 +37,10 @@ const Project = () => {
             </Link>
           </div>
           <div className="all1">
-            <Link href="https://superb-medovik-cac12c.netlify.app">
+            <Link
+              href="https://superb-medovik-cac12c.netlify.app"
+              target="_blank"
+            >
               {" "}
               <Image
                 src={"/project3.png"}
@@ -47,7 +53,7 @@ const Project = () => {
           </div>
           <div className="all1">
             <p className="pr-p2"> Project</p>
-            <Link href="https://react-homewrok3.vercel.app">
+            <Link href="https://react-homewrok3.vercel.app" target="_blank">
               {" "}
               <Image
                 src={"/project4.png"}
@@ -58,7 +64,7 @@ const Project = () => {
             </Link>
           </div>
           <div className="all1">
-            <Link href="https://month5homework3.netlify.app">
+            <Link href="https://month5homework3.netlify.app" target="_blank">
               {" "}
               <Image
                 src={"/project5.png"}
@@ -72,7 +78,10 @@ const Project = () => {
           </div>
           <div className="all1">
             <p className="pr-p2"> Project</p>
-            <Link href="https://grouprojecthomework7.netlify.app">
+            <Link
+              href="https://grouprojecthomework7.netlify.app"
+              target="_blank"
+            >
               {" "}
               <Image
                 src={"/project6.png"}

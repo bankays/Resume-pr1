@@ -141,3 +141,17 @@ strong {
 .c-img2 {
   margin: 80px 0px 0px 400px;
 }
+.p4 {
+  color: var(--Color-3, #00adb5);
+  font-size: 34px;
+  margin: 160px 0px 0px 530px;
+  position: absolute;
+}
+.resume {
+  color: white;
+  background-color: var(--Color-3, #00adb5);
+  width: 150px;
+  height: 30px;
+  border-radius: 12px;
+  border-color: none;
+}

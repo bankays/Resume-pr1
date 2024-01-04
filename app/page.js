@@ -15,6 +15,10 @@ export default function Home() {
                 I'm interested in web development. I have good knowledge of
                 front-end technologies.
               </p>
+
+              <a href="https://drive.google.com/uc?export=download&id=1Zpr03usUXGjpL_00PEBsIzxu7aUJQAJU">
+                <button className="resume">Download Resume</button>
+              </a>
             </div>
             <div className="right">
               <Image
@@ -36,6 +40,7 @@ export default function Home() {
               <strong> hard working</strong> and of course I know 3 languages
               one of them is English my level is B1.
             </p>{" "}
+            <p className="p4">My skills</p>
             <div className="work">
               <p className="p11">html</p>
               <p className="p11">css</p>
