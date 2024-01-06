@@ -6,6 +6,7 @@ async function getProjects() {
   });
   return res.json();
 }
+
 export default async function Projects() {
   const t = await getProjects();
   return (

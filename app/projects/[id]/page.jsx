@@ -9,6 +9,7 @@ const SingleProduct = async ({ params }) => {
       {project && (
         <div key={project.id}>
           <h1>{project.title}</h1>
+          <h1>{project.tech}</h1>
           <img src={project.img} alt="" />
         </div>
       )}

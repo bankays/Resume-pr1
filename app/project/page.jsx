@@ -5,7 +5,7 @@ import React from "react";
 const Project = () => {
   return (
     <div>
-      <div className="project">
+      <div className="">
         <div className="container">
           <h1 className="pr-p1">My projects</h1>
           <div className="all1">
