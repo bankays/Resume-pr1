@@ -6,21 +6,19 @@ const Navbar = () => {
     <div>
       <div className="container">
         <nav>
-          <h1 className="logo">LOGO</h1>
+          <h1 className="logo">AZIZ</h1>
           <ul>
             <Link href="/">
               <li>Home</li>
             </Link>
-            <Link href="/projects">
-              <li>Projects</li>
-            </Link>
+
             <Link href="/project">
-              <li>project</li>
+              <li>Project</li>
             </Link>
 
             <Link href="/contact">
               <li>
-                <p>contact</p>
+                <p>Contact</p>
               </li>
             </Link>
           </ul>

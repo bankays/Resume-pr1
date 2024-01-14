@@ -42,15 +42,15 @@ export default function Home() {
             </p>{" "}
             <p className="p4">My skills</p>
             <div className="work">
-              <p className="p11">html</p>
-              <p className="p11">css</p>
-              <p className="p11">javascript</p>
-              <p className="p11">React</p>
-              <p className="p11">nextjs</p>
-              <p className="p11">github</p>
-              <p className="p11">vercel</p>
-              <p className="p11">netlify</p>
-              <p className="p11">bootstrap</p>
+              <p className="p11">HTML</p>
+              <p className="p11">SCC</p>
+              <p className="p11">JAVASCRIPT</p>
+              <p className="p11">REACT</p>
+              <p className="p11">NEXTJS</p>
+              <p className="p11">GITHUB</p>
+              <p className="p11">VERCEL</p>
+              <p className="p11">NETLIFY</p>
+              <p className="p11">BOOTSTRAP</p>
             </div>
           </div>
         </div>

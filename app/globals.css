@@ -85,7 +85,7 @@ strong {
   background-color: #00b576;
 }
 .p11 {
-  width: 150px;
+  width: 170px;
   height: 90px;
   font-size: 27px;
   text-align: center;
@@ -115,7 +115,7 @@ strong {
 .pr-p2 {
   font-size: 30px;
   color: #00adb5;
-  padding: 190px 0px 0px 90px;
+  /* padding: 190px 0px 0px 90px; */
 }
 .c-p1 {
   color: var(--Color-3, #00adb5);

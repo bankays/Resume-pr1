@@ -7,7 +7,9 @@ const Project = () => {
     <div>
       <div className="">
         <div className="container">
-          <h1 className="pr-p1">My projects</h1>
+          <div>
+            <h1 className="pr-p1">My projects</h1>
+          </div>
           <div className="all1">
             <Link
               href="https://taupe-frangollo-661719.netlify.app"
@@ -21,11 +23,8 @@ const Project = () => {
                 alt="my img"
               />
             </Link>
-
-            <p className="pr-p2"> Project</p>
           </div>
           <div className="all1">
-            <p className="pr-p2"> Project</p>
             <Link href="https://homepage8lesonaa.netlify.app" target="_blank">
               {" "}
               <Image
@@ -49,10 +48,8 @@ const Project = () => {
                 alt="my img"
               />
             </Link>
-            <p className="pr-p2"> Project</p>
           </div>
           <div className="all1">
-            <p className="pr-p2"> Project</p>
             <Link href="https://react-homewrok3.vercel.app" target="_blank">
               {" "}
               <Image
@@ -73,11 +70,8 @@ const Project = () => {
                 alt="my img"
               />
             </Link>
-
-            <p className="pr-p2"> Project</p>
           </div>
           <div className="all1">
-            <p className="pr-p2"> Project</p>
             <Link
               href="https://grouprojecthomework7.netlify.app"
               target="_blank"
